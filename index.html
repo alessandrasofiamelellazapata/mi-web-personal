@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ale Chavita 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Nunito', sans-serif;
+      background: linear-gradient(to bottom right, #ffeef5, #ffe6f0);
+      color: #333;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #ffb6d9;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-family: 'Chewy', cursive;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+      position: relative;
+    }
+
+    header::after {
+      content: " ✨ 🌷 ✨";
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+      font-size: 1.2em;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Chewy', cursive;
+      color: #d25ba2;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .enlaces ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .enlaces li {
+      margin: 8px 0;
+    }
+
+    .enlaces a {
+      text-decoration: none;
+      color: #c94d92;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      background-color: #ffd0ea;
+      margin-top: 40px;
+    }
+
+    /* Estrellitas y florecitas animadas */
+    .decoracion {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .decoracion span {
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      opacity: 0.7;
+      animation: flotar 10s linear infinite;
+    }
+
+    @keyframes flotar {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.7;
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    ¡Hola! Soy Ale ✨🌸
+  </header>
+
+  <div class="decoracion">
+    <!-- Aquí podemos agregar florecitas y estrellas animadas con JS después -->
+  </div>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Soy Ale, estudiante de Ingeniería Industrial 💻✨. Este sitio web es parte de mi curso de Fundamentos de Informática.</p>
+  </section>
+
+  <section>
+    <h2>Curso y Profesores</h2>
+    <p>Estoy llevando el curso con el profesor Ernesto. Aquí irá su LinkedIn (pendiente).</p>
+  </section>
+
+  <section class="enlaces">
+    <h2>Mis compañeros 💕</h2>
+    <ul>
+      <li><a href="#">Nombre de compi 1</a></li>
+      <li><a href="#">Nombre de compi 2</a></li>
+      <li><a href="#">Nombre de compi 3</a></li>
+      <!-- Agregas más luego -->
+    </ul>
+  </section>
+
+  <section>
+    <h2>Mi LinkedIn</h2>
+    <p><a href="#">Aquí irá el enlace cuando lo tengas listo</a></p>
+  </section>
+
+  <footer>
+    Hecho con 💖 por Ale Chavita — 2025
+  </footer>
+</body>
+</html>
