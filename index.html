@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alessandra Sofia Melella Zapata</title>
   <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1f6c3f9d52.js" crossorigin="anonymous"></script>
   <style>
     body {
       margin: 0;
@@ -39,6 +40,14 @@
       padding: 30px 20px;
       max-width: 800px;
       margin: auto;
+    }
+
+    .tarjeta {
+      background-color: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 30px 0;
     }
 
     h2 {
@@ -80,7 +89,7 @@
     }
 
     .enlaces li a::before {
-      content: "\2192"; /* flecha */
+      content: "\2192";
       position: absolute;
       left: 0;
       color: #c94d92;
@@ -92,6 +101,16 @@
       padding: 20px;
       background-color: #ffd0ea;
       margin-top: 40px;
+    }
+
+    .iconos-footer {
+      margin-top: 10px;
+    }
+
+    .iconos-footer a {
+      margin: 0 12px;
+      color: #c94d92;
+      font-size: 1.4em;
     }
 
     .decoracion {
@@ -132,37 +151,39 @@
     ¡Hola! Soy Ale ✨🌸
   </header>
 
-  <div class="decoracion">
-    
-  </div>
+  <div class="decoracion"></div>
 
-  <section>
+  <section class="tarjeta">
     <h2>Sobre mí</h2>
     <p>Soy Alessandra Sofia Melella Zapata, estudiante de <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank">Ingeniería Industrial</a> 👩🏻‍💻✨. Este sitio web es parte de mi curso de Fundamentos de Informática.</p>
   </section>
 
-  <section>
+  <section class="tarjeta">
     <h2>Curso y Profesores</h2>
     <p>Estoy llevando el curso con el profesor <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros Vargas</a>.</p>
   </section>
 
-  <section class="enlaces">
+  <section class="tarjeta enlaces">
     <h2>Mis compañeros 🖇️</h2>
     <ul>
       <li><a href="https://ivan-alfredo-guevara-luglio.github.io/trabajo-ucsp/" target="_blank">Ivan Alfredo Guevara Luglio</a></li>
       <li><a href="https://crimsonkiller18.github.io/Piero-Polar-Salazar/" target="_blank">Piero Polar Salazar</a></li>
       <li><a href="#">Nombre 3</a></li>
-      <!-- Más enlaces aquí -->
     </ul>
   </section>
 
-  <section>
+  <section class="tarjeta">
     <h2>Mi LinkedIn</h2>
     <p><a href="https://www.linkedin.com/in/alessandra-sof%C3%ADa-melella-zapata-b52253367/?originalSubdomain=pe" target="_blank">Visita mi perfil aquí</a></p>
   </section>
 
   <footer>
     Hecho por Ale — 2025
+    <div class="iconos-footer">
+      <a href="https://www.linkedin.com/in/alessandra-sof%C3%ADa-melella-zapata-b52253367/?originalSubdomain=pe" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="correo:alessandra.melella@ucsp.edu.pe"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/tugithub" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
   </footer>
 </body>
 </html>
