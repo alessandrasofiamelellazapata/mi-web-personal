@@ -63,9 +63,17 @@
       text-decoration: underline;
     }
 
+    /* Enlaces de compañeros sin flechas, alineados bonitos */
+    .enlaces {
+      text-align: center;
+    }
+
     .enlaces ul {
       list-style-type: none;
       padding-left: 0;
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
     }
 
     .enlaces li {
@@ -76,18 +84,7 @@
     .enlaces li a {
       color: #333;
       font-weight: normal;
-      position: relative;
-      padding-left: 20px;
-      display: inline-block;
-    }
-
-    .enlaces li a::before {
-  content: "\2192"; /* flecha */
-  position: absolute;
-  left: 0;
-  color: #c94d92;
-}
-
+      text-decoration: none;
     }
 
     hr {
@@ -171,7 +168,7 @@
   <section>
     <h2>Sobre mí</h2>
     <p>Soy Alessandra Sofia Melella Zapata, estudiante de <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank">Ingeniería Industrial</a> 👩🏻‍💻✨. Este sitio web es parte de mi curso de Fundamentos de Informática.</p>
-    <img src="chibi.png" alt="yo en dibujo" class="imagen-chibi" />
+    <img src="chibi.png" alt="YO" class="imagen-chibi" />
   </section>
 
   <hr />
@@ -192,13 +189,11 @@
     </ul>
   </section>
 
-  <hr />
-
   <section>
     <h2>Contacto</h2>
     <div class="contacto-iconos">
       <a href="https://www.linkedin.com/in/alessandra-sof%C3%ADa-melella-zapata-b52253367/?originalSubdomain=pe" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:alessandra.tucorreo@ucsp.edu.pe" title="Correo"><i class="fas fa-envelope"></i></a>
+      <a href="correo:alessandra.melella@ucsp.edu.pe" title="Correo"><i class="fas fa-envelope"></i></a>
       <a href="https://github.com/TuUsuarioGitHub" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
     </div>
   </section>
