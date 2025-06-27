@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -65,6 +64,13 @@
       text-decoration: underline;
     }
 
+    .imagen-chibi {
+      display: block;
+      margin: 30px auto;
+      width: 300px;
+      border-radius: 30px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
 
     .enlaces {
       text-align: center;
@@ -75,7 +81,7 @@
       padding-left: 0;
       max-width: 400px;
       margin: 0 auto;
-      text-align: center;
+      text-align: left;
     }
 
     .enlaces li {
@@ -97,34 +103,21 @@
       width: 60%;
     }
 
-    .imagen-chibi {
-      margin-top: 20px;
-      max-width: 200px;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      
-    .imagen-chibi {
-  display: block;
-  margin: 20px auto;
-  width: 220px; /* Aumenta el tamaño a tu gusto */
-  border-radius: 30px;
-}
-
+    .contacto {
+      text-align: center;
+      margin: 40px 0;
     }
 
-    .contacto-iconos {
-      margin-top: 20px;
-    }
-
-    .contacto-iconos a {
-      margin: 0 15px;
+    .iconos-contacto a {
+      font-size: 3.2em;
+      margin: 0 25px;
       color: #c94d92;
-      font-size: 1.8em;
       transition: transform 0.2s ease;
     }
 
-    .contacto-iconos a:hover {
+    .iconos-contacto a:hover {
       transform: scale(1.2);
+      color: #a03b72;
     }
 
     footer {
@@ -165,22 +158,6 @@
         transform: translateY(100vh) rotate(360deg);
         opacity: 0;
       }
-      .contacto {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.iconos-contacto a {
-  font-size: 3em;
-  margin: 0 20px;
-  color: #c94d92;
-  transition: transform 0.2s ease;
-}
-
-.iconos-contacto a:hover {
-  transform: scale(1.2);
-  color: #a03b72;
-}
     }
   </style>
 </head>
@@ -193,44 +170,46 @@
 
   <section>
     <h2>Sobre mí</h2>
-    <p>Soy Alessandra Sofia Melella Zapata, estudiante de <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank">Ingeniería Industrial</a> y actualmente me encuentro en mi segundo semestre!👷🏻‍♀️✨. Este sitio web es parte de mi curso de Fundamentos de Informática.</p>
+    <p>
+      Soy Alessandra Sofia Melella Zapata, estudiante de <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank">Ingeniería Industrial</a> y actualmente me encuentro en mi segundo semestre 👷🏻‍♀️✨. Este sitio web es parte de mi curso de Fundamentos de Informática.
+    </p>
     <img src="chibi.png" alt="YO" class="imagen-chibi" />
   </section>
-    <section>
-  <h2>Mi universidad 🎓</h2>
-  <p>
-     Estudio en la <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo</a> y la verdad me encanta el ambiente del campus. Siempre hay algo pasando: talleres, concursos, actividades creativas y hasta sorteos!
-      </p>
-  <p>
-    Más allá de eso, siento que los cursos que llevo realmente me retan, pero también me motivan a dar lo mejor de mí. Hay materias que me sacan de mi zona de confort, pero al final me doy cuenta de todo lo que aprendo. 
-      </p>
-  <p>
-    Algo que valoro muchísimo es que tengo profesores que de verdad se preocupan por enseñarnos bien y por impulsarnos a pensar diferente. Poco a poco siento que voy creciendo, no solo como profesional, sino también como persona. 🌷✨
-  </p>
-  </p>
-</section>
 
-<section>
-  <h2>¿Por qué elegí Ingeniería Industrial?</h2>
-  <p>
-    Elegí esta carrera porque siempre me ha interesado entender cómo funcionan las cosas y cómo mejorarlas. Siento que la Ingeniería Industrial me permite encontrar el equilibrio perfecto entre lo técnico y lo humano: optimizar procesos, ayudar a las personas y aportar con soluciones creativas.
-  </p>
-  <p>
-    En el curso de Fundamentos de Informática estoy descubriendo herramientas que antes no imaginaba usar. Me encanta cómo este curso nos abre los ojos a lo que viene en el futuro, en especial en temas de tecnología. Siento que todo lo que estamos aprendiendo nos prepara no solo para el presente, sino también para adaptarnos y destacar en los próximos años. 💻✨
-  </p>
-</section>
+  <section>
+    <h2>Mi universidad 🎓</h2>
+    <p>
+      Estudio en la <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo</a> y la verdad me encanta el ambiente del campus. Siempre hay algo pasando: talleres, concursos, actividades creativas y hasta sorteos.
+    </p>
+    <p>
+      Más allá de eso, siento que los cursos que llevo realmente me retan, pero también me motivan a dar lo mejor de mí. Hay materias que me sacan de mi zona de confort, pero al final me doy cuenta de todo lo que aprendo.
+    </p>
+    <p>
+      Algo que valoro muchísimo es que tengo profesores que de verdad se preocupan por enseñarnos bien y por impulsarnos a pensar diferente. Poco a poco siento que voy creciendo, no solo como profesional, sino también como persona. 🌷✨
+    </p>
+  </section>
+
+  <section>
+    <h2>¿Por qué elegí Ingeniería Industrial?</h2>
+    <p>
+      Elegí esta carrera porque siempre me ha interesado entender cómo funcionan las cosas y cómo mejorarlas. Siento que la Ingeniería Industrial me permite encontrar el equilibrio perfecto entre lo técnico y lo humano: optimizar procesos, ayudar a las personas y aportar con soluciones creativas.
+    </p>
+    <p>
+      En el curso de Fundamentos de Informática estoy descubriendo herramientas que antes no imaginaba usar. Me encanta cómo este curso nos abre los ojos a lo que viene en el futuro, en especial en temas de tecnología. Siento que todo lo que estamos aprendiendo nos prepara no solo para el presente, sino también para adaptarnos y destacar en los próximos años. 💻✨
+    </p>
+  </section>
+
   <hr />
 
   <section>
     <h2>Cursos y Profesores</h2>
-    <p>Fundamentos de Informática con el profesor <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros Vargas</a> y el profesor Diego Pacheco
-    <p>Cálculo I con la profesora Meyber Vargas de Nuñez
-    <p>Matemática II con la profesora Kelly Anco Torres
-    <p>Física I con la profesora Yessy Guillén Baca y el profesor Danny Apaza Veliz
-    <p>Química II con el profesor Alejandro Zegarra Balboa y la profesora Juliana Dos Santos
-    <p>Introducción a la Filosofía con la profesora Lourdes Ponce Morales
-    <p>  
-    <p><a href="https://ucsp.edu.pe/vive-san-pablo/universidad/transparencia/malla-curricular-ingenieria-industrial/" target="_blank">Malla Curricular de mi carerra!</a>
+    <p>Fundamentos de Informática con el profesor <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros Vargas</a> y el profesor Diego Pacheco</p>
+    <p>Cálculo I con la profesora Meyber Vargas de Nuñez</p>
+    <p>Matemática II con la profesora Kelly Anco Torres</p>
+    <p>Física I con la profesora Yessy Guillén Baca y el profesor Danny Apaza Veliz</p>
+    <p>Química II con el profesor Alejandro Zegarra Balboa y la profesora Juliana Dos Santos</p>
+    <p>Introducción a la Filosofía con la profesora Lourdes Ponce Morales</p>
+    <p><a href="https://ucsp.edu.pe/vive-san-pablo/universidad/transparencia/malla-curricular-ingenieria-industrial/" target="_blank">Ver malla curricular de mi carrera</a></p>
   </section>
 
   <hr />
@@ -244,17 +223,17 @@
     </ul>
   </section>
 
- <section class="contacto">
-  <h2>Contacto</h2>
-  <div class="iconos-contacto">
-    <a href="https://www.linkedin.com/in/alessandra-sof%C3%ADa-melella-zapata-b52253367/" target="_blank" title="LinkedIn">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="mailto:alessandra.melella@ucsp.edu.pe" title="Correo UCSP">
-      <i class="fas fa-envelope"></i>
-    </a>
-  </div>
-</section>
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <div class="iconos-contacto">
+      <a href="https://www.linkedin.com/in/alessandra-sof%C3%ADa-melella-zapata-b52253367/" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:alessandra.melella@ucsp.edu.pe" title="Correo UCSP">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
 
   <footer>
     Hecho por Ale — 2025
